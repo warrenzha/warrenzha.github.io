@@ -79,7 +79,7 @@
       institution: Souteast University, Nanjing, China
       year: 2019 - 2020
       description:
-        - mmWave beam alignment and tracking (BA/T) formulation as stochastic bandit learning
+        - mmWave beam alignment and tracking (BA/T) formulation with stochastic bandit learning
         - Greedy strategy and upper confidence bound (UCB) strategy for optimal beam searching
 
     - title: Sensor Research Assistant
