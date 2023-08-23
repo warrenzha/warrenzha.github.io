@@ -17,15 +17,20 @@
       institution: Texas A&M University, United States
       year: 2023 - 
       description:
+        - Major in Information Science and Learning Systems
         - Advised by Prof. <a href='http://tiangroup.engr.tamu.edu/'>Chao Tian</a>
     - title: M.S. in Electrical Engineering
       institution: University of California San Diego, United States
       year: 2021 - 2023
       description:
+        - Major in Communication Theory and Systems
         - Advised by Prof. <a href='http://xyzhang.ucsd.edu/index.html'>Xinyu Zhang</a>
     - title: B.E. in Information Engineering
       institution: Southeast University, China
       year: 2017 - 2021
+      description:
+        - Major in Information Engineering
+        - Advised by Prof. Cheng Zhang
 
 - title: Honors and Awards
   type: time_table
@@ -74,23 +79,24 @@
       institution: Souteast University, Nanjing, China
       year: 2019 - 2020
       description:
-        - Formulated mmWave beam alignment and tracking (BA/T) as a stochastic bandit learning problem
-        - Implemented greedy strategy and upper confidence bound (UCB) strategy for optimal beam searching
+        - mmWave beam alignment and tracking (BA/T) formulation as stochastic bandit learning
+        - Greedy strategy and upper confidence bound (UCB) strategy for optimal beam searching
 
     - title: Sensor Research Assistant
       institution: Souteast University, Nanjing, China
       year: 2018
       description:
-        - Designed a sensor platform with STM32f373
+        - A high-resolution sensor platform with STM32f373
         - Improved sampling precision from 16-bit to 20-bit using oversampling theorem
-        - Designed user-friendly HCIs
+        - User-friendly HCI design
 
 - title: Academic Interests
   type: nested_list
   contents:
     - title: Information Science and Learning Systems
       items:
-        - Machine Learning and Reinforcement Learning
+        - Deep Learning and Reinforcement Learning
+        - Deep Generative Model
         - Information and Coding Theory
     - title: Communication Theory and Systems
       items:
@@ -100,4 +106,4 @@
 - title: CV (PDF version)
   type: list
   contents:
-    - <a href='https://wyzhao030.github.io/assets/pdf/cv.pdf'>CV.pdf</a>
+    - <a href='https://warrenzha.github.io/assets/pdf/cv.pdf'>CV.pdf</a>

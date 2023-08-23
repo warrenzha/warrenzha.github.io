@@ -1,11 +1,11 @@
 ---
 layout: page
-title: Machine Learning
-description: Machine learning and reinforcement learning algorithms.
-img: assets/img/neural_net.jpeg
-redirect: https://www.ray.io/
+title: PyTorch PPO
+description: PyTorch Implementation of PPO with GAE.
+img:
+redirect: https://github.com/warrenzha/ppo-pytorch
 importance: 3
-category: research
+category: fun
 ---
 
 Every project has a beautiful feature showcase page.

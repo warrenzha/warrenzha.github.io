@@ -1,21 +1,81 @@
 ---
 layout: page
-title: Wireless Network
-description: Next-generation wireless communication architectures and mobile applications.
-img: assets/img/mesh_net.png
+title: Machine Learning
+description: Open-source deep learning and reinforcement learning framework
+img: assets/img/neural_net.jpeg
+redirect: https://www.ray.io/
 importance: 1
 category: research
 ---
 
-Software-defined, AI-driven Dyanmic mmWave IAB
-------
-Abstract: Integrated Access and Backhaul (IAB) is an emerging technique to enable cost-effective deployment of dense 5G networks that utilize emerging millimeter-wavelength (mmWave) spectrum. Existing heuristic-based network control/management frameworks are not well-suited for the increasing complexity and uncertainty introduced by mmWave IAB. Machine learning (ML) can help automate network control decisions, but its practical deployment faces new system-level challenges in 5G IAB, including accurate simulation-based training, resolving conflicting objectives from heterogeneous network slices, and efficiently collecting observations for run-time decision making. In this paper, we develop a general framework for effectively deploying reinforcement learning (RL) to control 5G IAB networks. Our framework incorporates a data-driven stochastic simulation scheme to bridge the simulation-to-reality gap, a piecewise reward shaping mechanism to handle competing conflicting performance objectives, and a simple observation selection algorithm to reduce the input size into the RL policy. We validate this framework using real-world network measurements from a mmWave IAB testbed, combined with a large scale ray tracing simulation. Experiments on a set of challenging 5G IAB network control problems demonstrate the effectiveness of our framework to enable practical RL integration into 5G IAB.
+Every project has a beautiful feature showcase page.
+It's easy to include images in a flexible 3-column grid format.
+Make your photos 1/3, 2/3, or full width.
 
-ML-based Matrix Optimization in Massive MIMO
-------
-Abstract: In the downlink of massive MIMO, the transmitter uses precoding technology to reduce interference and improve spectrum efficiency. In this paper, a complex-valued gradient neural network (CVGNN) is proposed to solve the Moore-Penrose inversion of the complex matrix used in massive MIMO precoding algorithms.
+To give your project a background in the portfolio page, just add the img tag to the front matter like so:
 
-Beam Alignment and Tracking for Millimeter Wave Communications via Bandit Learning
-------
-Abstract: Millimeter wave (mmwave) communications have attracted increasing attention thanks to the abundant spectrum resource. The short wave-length of mmwave signals facilitates exploiting large antenna arrays to achieve large array gains and combat large path-loss. However, the use of large antenna arrays along with narrow beams leads to a large overhead in beam training for obtaining channel state information, especially in dynamic environments. To reduce the overhead of beam training, in this paper we formulate the problem of beam alignment and tracking (BA/T) as a stochastic bandit problem. In particular, to sense the change of the environments, the actions are designed based on the offset of successive beam indexes (i.e., beam index difference), which measures the rate of change of the environments. Then, we propose two efficient BA/T algorithms based on the stochastic bandit learning. To reveal useful insights, the performance of effective achievable rate is further analyzed for the proposed BA/T algorithms. The analytical results show that the algorithms can sense the change of the environments and adjust beam training strategies intelligently. In addition, they do not require any priori knowledge of dynamic channel modeling, and thus are applicable to a variety of complicated scenarios. Simulation results demonstrate the effectiveness and superiority of the proposed algorithms.
+    ---
+    layout: page
+    title: project
+    description: a project with a background image
+    img: /assets/img/12.jpg
+    ---
 
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
+</div>
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    This image can also have a caption. It's like magic.
+</div>
+
+You can also put regular text between your rows of images.
+Say you wanted to write a little bit about your project before you posted the rest of the images.
+You describe how you toiled, sweated, *bled* for your project, and then... you reveal its glory in the next row of images.
+
+
+<div class="row justify-content-sm-center">
+    <div class="col-sm-8 mt-3 mt-md-0">
+        {% include figure.html path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm-4 mt-3 mt-md-0">
+        {% include figure.html path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    You can also have artistically styled 2/3 + 1/3 images, like these.
+</div>
+
+
+The code is simple.
+Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
+To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
+Here's the code for the last row of images above:
+
+{% raw %}
+```html
+<div class="row justify-content-sm-center">
+    <div class="col-sm-8 mt-3 mt-md-0">
+        {% include figure.html path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm-4 mt-3 mt-md-0">
+        {% include figure.html path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+```
+{% endraw %}

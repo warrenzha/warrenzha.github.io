@@ -1,10 +1,10 @@
 ---
 layout: page
-title: PyTorch PPO
-description: PyTorch Implementation of PPO with GAE.
-img:
-redirect: https://github.com/warrenzha/ppo-pytorch
-importance: 3
+title: R3nzSkin
+description: Skin changer for League of Legends
+img: 
+redirect: https://github.com/R3nzTheCodeGOD/R3nzSkin
+importance: 4
 category: fun
 ---
 

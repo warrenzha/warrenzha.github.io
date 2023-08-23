@@ -1,20 +1,81 @@
 ---
 layout: page
-title: Information Science
-description: Signal processing and learning method for information science.
+title: Machine Learning
+description: AI-powered language model capable of generating human-like text
 img: assets/img/eeg_signals.jpeg
+redirect: https://openai.com/chatgpt
 importance: 2
 category: research
 ---
 
-GAN-based EEG Signal Generation
-------
-Abstract: Processing and analysis of brain signals generally requires a large amount of data. But the acquisition of EEG signals is difficult while the sample size of the data set is small, and sometimes categories are unbalanced in the data set. Based on the challenge, we proposed the WGAN-GP method, a variant of GAN, to generate useful EEG signals. The experiments on single-channel and multi-channel model both show that the performance of WGAN-GP is stable, and the generated signals have close shape with the real signals, and have better spectrum performance than traditional methods. Our results and analysis show that WGAN-GP can generate accurate and diverse EEG signals, and thus, help extend the data set which is difficult to collect physically. We’ve made the code associated with this work available at https://github.com/wyzhao030/WGAN-GP.
+Every project has a beautiful feature showcase page.
+It's easy to include images in a flexible 3-column grid format.
+Make your photos 1/3, 2/3, or full width.
 
-Blind Deconvolution Using Convex Programming
-------
-Abstract: We study the question of recovering two signals w and x from their convolution y = w ∗ x. Generally, the solution to this blind deconvolution problem is non-unique and non-convex. But with assumptions on sparsity, subspace structure and transformed variable, we can convert the non-convex nuclear norm into a convex problem by ”dual-dual” relaxation. In this project, we also implement the convex algorithm proposed in Blind Deconvolution Using Convex Programming, and compare its performance with non-blind and non-convex algorithms. Moreover, the evaluation shows that the convex algorithm is robust against sparsity violation, but sensitive to low-rank condition. At last, we try to extend the algorithm to 2D deconvolution by recovering a blurred image. But the result on 2D deconvolution still need improvement.
+To give your project a background in the portfolio page, just add the img tag to the front matter like so:
 
-ML-based Customer Review Classification
-------
-Abstract: Customer reviews on e-commerce platforms contain valuable information, while sifting through them manually tends to dismay people because of the huge amount of data. This study implemented a machine learning-based algorithm to classify customer reviews. Our classifier extracts Chinese word segmentation and text frequency for feature extraction and scoring, and implements the classification with methods of Naive Bayesian and Support Vector Machines. Experimental results on the Taobao product review sentiment datasets show that our model based on two machine learning algorithms, though results in different performances, can provide suggestions on the selection of the identification classifier using a trade-off strategy and helps obtain fast and accurate classification on reviews of different categories.
+    ---
+    layout: page
+    title: project
+    description: a project with a background image
+    img: /assets/img/12.jpg
+    ---
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
+</div>
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    This image can also have a caption. It's like magic.
+</div>
+
+You can also put regular text between your rows of images.
+Say you wanted to write a little bit about your project before you posted the rest of the images.
+You describe how you toiled, sweated, *bled* for your project, and then... you reveal its glory in the next row of images.
+
+
+<div class="row justify-content-sm-center">
+    <div class="col-sm-8 mt-3 mt-md-0">
+        {% include figure.html path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm-4 mt-3 mt-md-0">
+        {% include figure.html path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    You can also have artistically styled 2/3 + 1/3 images, like these.
+</div>
+
+
+The code is simple.
+Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
+To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
+Here's the code for the last row of images above:
+
+{% raw %}
+```html
+<div class="row justify-content-sm-center">
+    <div class="col-sm-8 mt-3 mt-md-0">
+        {% include figure.html path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm-4 mt-3 mt-md-0">
+        {% include figure.html path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+```
+{% endraw %}
