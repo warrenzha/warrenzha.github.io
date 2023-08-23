@@ -1,0 +1,103 @@
+- title: General Information
+  type: map
+  contents:
+    - name: Full Name
+      value: Wenyuan Zhao
+    - name: Contact
+      value: wyzhao [at] tamu [dot] edu
+    - name: Research Interests
+      value: Information Theory, Machine Learning, and Communication
+    - name: Languages
+      value: English, Chinese
+
+- title: Education
+  type: time_table
+  contents:
+    - title: Ph.D. in Electrical and Computer Engineering
+      institution: Texas A&M University, United States
+      year: 2023 - 
+      description:
+        - Advised by Prof. <a href='http://tiangroup.engr.tamu.edu/'>Chao Tian</a>
+    - title: M.S. in Electrical Engineering
+      institution: University of California San Diego, United States
+      year: 2021 - 2023
+      description:
+        - Advised by Prof. <a href='http://xyzhang.ucsd.edu/index.html'>Xinyu Zhang</a>
+    - title: B.E. in Information Engineering
+      institution: Southeast University, China
+      year: 2017 - 2021
+
+- title: Honors and Awards
+  type: time_table
+  contents:
+    - year: 2020
+      items:
+        - Sun Qingyun Scholarship, Southeast University
+    - year: 2019
+      items:
+        - 1st place in Mathematical Contest in Modeling (CUMCM)
+        - Mitsubishi Electric Corporation Scholarship, Southeast University
+    - year: 2018
+      items:
+        - Academic Records Scholarship, Southeast University
+
+- title: Experience
+  type: time_table
+  contents:
+    - title: mmWave Networking Research Assistant
+      institution: Center of Wireless Communication, UCSD, California, US
+      year: 2022 - 2023
+      description:
+        - RL-driven method for dynammic mmWave mesh configuration
+        - Bridging the Simulation-to-Reality gap in mmWave interference mapping
+        - title: Simulation and testbed evaluation
+          contents:
+            - A hybrid simulation framework for mmWave mesh
+            - A mmWave mesh testbed using MikroTik hardware
+
+    - title: Massive MIMO Research Assistant
+      institution: Southeast University, Nanjing, China
+      year: 2020 - 2021
+      description:
+        - Precoding algorithms for massive MIMO downlink
+        - Complex-valued Gradient Neural Network (CVGNN) to solve complex matrices inversion
+        - Theoretical convergence and computation overhead evaluation of CVGNN
+
+    - title: Data Science Research Assistant
+      institution: Massachusetts Institute of Technology, Cambrige, MA, US
+      year: 2020
+      description:
+        - Machine learning algorithms and neural networks
+        - Chinese Semantic sentiment analysis using word segmentation and text frequency extraction
+
+    - title: mmWave Research Assistant
+      institution: Souteast University, Nanjing, China
+      year: 2019 - 2020
+      description:
+        - Formulated mmWave beam alignment and tracking (BA/T) as a stochastic bandit learning problem
+        - Implemented greedy strategy and upper confidence bound (UCB) strategy for optimal beam searching
+
+    - title: Sensor Research Assistant
+      institution: Souteast University, Nanjing, China
+      year: 2018
+      description:
+        - Designed a sensor platform with STM32f373
+        - Improved sampling precision from 16-bit to 20-bit using oversampling theorem
+        - Designed user-friendly HCIs
+
+- title: Academic Interests
+  type: nested_list
+  contents:
+    - title: Information Science and Learning Systems
+      items:
+        - Machine Learning and Reinforcement Learning
+        - Information and Coding Theory
+    - title: Communication Theory and Systems
+      items:
+        - Wireless Communication
+        - mmWave Networking
+
+- title: CV (PDF version)
+  type: list
+  contents:
+    - <a href='https://wyzhao030.github.io/assets/pdf/cv.pdf'>CV.pdf</a>
