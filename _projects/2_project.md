@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Machine Learning
+title: OpenAI ChatGPT
 description: AI-powered language model capable of generating human-like text
 img: assets/img/eeg_signals.jpeg
 redirect: https://openai.com/chatgpt
