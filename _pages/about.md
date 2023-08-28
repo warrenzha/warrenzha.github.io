@@ -23,4 +23,4 @@ Hi, I am Wenyuan, a first year Ph.D. student in Electrical and Computer Engineer
 
 Before joining TAMU, I received my M.S. degree in Communication Theory & Systems at [UC San Diego](https://ece.ucsd.edu), where I worked on AI-driven mmWave Networking with Professor [Xinyu Zhang](http://xyzhang.ucsd.edu/index.html). Besides, I received my B.E. degree in Information Engineering at Southeast University in 2021.
 
-My research interest lies in Information Theory, Machine Learning, and Communication. Particularly, I am working on deep generative model and deep Guassian diffusion model.
+My research interests lie in Information Theory, Machine Learning, and Communication. Particularly, I am working on deep Gaussian process and diffusion models.

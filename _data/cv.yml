@@ -96,12 +96,12 @@
     - title: Information Science and Learning Systems
       items:
         - Deep Learning and Reinforcement Learning
+        - Deep Gaussian Process
         - Deep Generative Model
-        - Information and Coding Theory
     - title: Communication Theory and Systems
       items:
+        - Information and Coding Theory
         - Wireless Communication
-        - mmWave Networking
 
 - title: CV (PDF version)
   type: list
