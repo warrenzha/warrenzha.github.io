@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Graduate from SEU. BE degree conferred. Goodbye, SEU! 🎓
+Graduation from SEU with B.E. degree conferred. Goodbye, SEU! 🎓
