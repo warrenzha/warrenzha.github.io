@@ -49,6 +49,17 @@
 - title: Experience
   type: time_table
   contents:
+    - title: PIR Coding Research Assistant
+      institution: Texas A&M University, College Station, Texas, US
+      year: 2023 - 2024
+      description:
+        - Code construction for weakly private information retrieval (PIR)
+        - Optimization for probability allocation of Weakly PIR code
+        - title: Heterogeneity in servers trustfulness
+          contents:
+            - Maximal leakage (Max-L) mutual information (MI) metric
+            - Sophisticated analysis of underlying convex optimization
+
     - title: mmWave Networking Research Assistant
       institution: Center of Wireless Communication, UCSD, California, US
       year: 2022 - 2023
@@ -96,8 +107,8 @@
     - title: Information Science and Learning Systems
       items:
         - Deep Learning and Reinforcement Learning
-        - Deep Gaussian Process
-        - Deep Generative Model
+        - Gaussian Process
+        - Generative Model
     - title: Communication Theory and Systems
       items:
         - Information and Coding Theory
