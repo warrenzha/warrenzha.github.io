@@ -106,9 +106,8 @@
   contents:
     - title: Information Science and Learning Systems
       items:
-        - Deep Learning and Reinforcement Learning
-        - Gaussian Process
-        - Generative Model
+        - Deep Gaussian Process and Diffusion Models
+        - Generative Model and Deep Learning
     - title: Communication Theory and Systems
       items:
         - Information and Coding Theory

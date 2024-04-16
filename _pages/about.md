@@ -19,7 +19,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Hi, I am Warren (Wenyuan), a first year Ph.D. student in the Electrical and Computer Engineering Department at [Texas A&M University](https://ece.tamu.edu), advised by Professor [Chao Tian](https://tiangroup.engr.tamu.edu). Currently I am working in the general area of Information Science and Learning Systems where new algorithms have been proposed dealing with diverse settings.
+Hi, I am Wenyuan (Warren), a first year Ph.D. student in the Electrical and Computer Engineering Department at [Texas A&M University](https://ece.tamu.edu), advised by Professor [Chao Tian](https://tiangroup.engr.tamu.edu). Currently I am working in the general area of Information Science and Learning Systems where new algorithms have been proposed dealing with diverse settings.
 
 Before joining TAMU, I received my M.S. degree in Communication Theory & Systems at [UC San Diego](https://ece.ucsd.edu), where I worked on AI-driven mmWave Networking with Professor [Xinyu Zhang](http://xyzhang.ucsd.edu/index.html). Besides, I received my B.E. degree in Information Engineering at Southeast University in 2021.
 
