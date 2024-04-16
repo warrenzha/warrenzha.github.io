@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Weakly PIR from Heterogeneously Trusted Servers is accepted by **ISIT 2024**! :sparkles: :smile:
+Weakly PIR from Heterogeneously Trusted Servers is accepted by **ISIT 2024**!
