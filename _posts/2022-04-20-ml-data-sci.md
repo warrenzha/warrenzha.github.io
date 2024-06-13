@@ -22,13 +22,9 @@ Our results and analysis show that WGAN-GP can generate accurate and diverse EEG
 set which is difficult to collect physically. We’ve made the code associated with this work available 
 at https://github.com/warrenzha/GAN-EEG-generation.
 
-<div class="row mt-3">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/posts/generatedeeg.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/posts/wganconverge.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}
-    </div>
+<div align="center">
+<img src="assets/img/posts/generatedeeg.jpg" width="400" />
+<img src="assets/img/posts/wganconverge.jpg" width="400" />
 </div>
 <div class="caption">
     Generated EEG signals and convergence rate of WGAN-GP.
