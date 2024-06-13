@@ -10,10 +10,9 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>2023 | Wenyuan  Zhao</title>
+    <title>Sparsely Activated BNNs from Deep Gaussian Process | Wenyuan  Zhao</title>
     <meta name="author" content="Wenyuan  Zhao">
-    <meta name="description" content="A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
-">
+    <meta name="description" content="We developed a sparse expansion of deep Gaussian processes as Bayesian neural networks that are amenable to efficient training and prior design.">
     <meta name="keywords" content="jekyll, jekyll-theme, academic-website, portfolio-website">
 
 
@@ -33,13 +32,16 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jwarby/jekyll-pygments-themes@master/github.css" media="" id="highlight_theme_light">
 
     
+    <!-- Sidebar Table of Contents -->
+    <link href="https://cdn.rawgit.com/afeld/bootstrap-toc/v1.0.1/dist/bootstrap-toc.min.css" rel="stylesheet">
+    
 
     <!-- Styles -->
     
     <link rel="shortcut icon" href="/assets/img/site-logo.png">
     
     <link rel="stylesheet" href="/assets/css/main.css">
-    <link rel="canonical" href="https://warrenzha.github.io/blog/2023/">
+    <link rel="canonical" href="https://warrenzha.github.io/blog/2024/dgp/">
 
     <!-- Dark Mode -->
     
@@ -117,30 +119,47 @@
     <!-- Content -->
     <div class="container mt-5">
       
-        <div class="post">
+        
+        <div class="row">
+          <!-- sidebar, which will move to the top on a small screen -->
+          <div class="col-sm-3">
+            <nav id="toc-sidebar" class="sticky-top"></nav>
+          </div>
+          <!-- main content area -->
+          <div class="col-sm-9">
+            <!-- _layouts/post.html -->
+
+<div class="post">
 
   <header class="post-header">
-    <h1 class="post-title"> <i class="fas fa-calendar fa-sm"></i> 2023 </h1>
-    <p class="post-description"> an archive of posts from this year </p>
+    <h1 class="post-title">Sparsely Activated BNNs from Deep Gaussian Process</h1>
+    <p class="post-meta">June 10, 2024</p>
+    <p class="post-tags">
+      <a href="/blog/2024"> <i class="fas fa-calendar fa-sm"></i> 2024 </a>
+        ·  
+        <a href="/blog/tag/machine-learning">
+          <i class="fas fa-hashtag fa-sm"></i> Machine-Learning</a>  
+          
+
+    </p>
   </header>
 
-  <article>
-    <div class="table-responsive">
-      <table class="table table-sm table-borderless">
-        
-        <tr>
-          <th scope="row">Apr 25, 2023</th>
-          <td>
-              <a class="post-link" href="/blog/2023/mesh-net/">AI-driven Dyanmic mmWave Networking</a>
-          </td>
-        </tr>
-      
-      </table>
+  <article class="post-content">
+    
+    <div id="markdown-content">
+      <p><em>Theory and algorithm development:</em> Building on our initial success, we aim to develop a deeper understanding of the nature of the DTMGP models and construct a broader class of DTMGP models with more complex architectures. This will be mainly accomplished by exploring various equivalent expansions of TMGPs and architectures with skip connections or feedback, akin to ResNet or RNN in the deterministic setting. Furthermore, to address the challenge of prior design, we plan to work to understand how the priors (especially, the covariance kernel functions) of the GP units impact the prior of the overall DGP model.</p>
+
+<p><em>Applications to conditional generative tasks:</em> While the primary motivation for studying DGPs in the literature so far has been uncertainty quantification for learning supervised classification/regression, the stochastic nature of these models also makes them natural candidates as generative models. While the general properties of DGPs as generative models are largely unknown, we are encouraged by our preliminary results on applying the DTMGP model to the MNIST dataset_ and the structural similarity between DGPs and the immensely popular Gaussian diffusion models.</p>
+
+<p><em>Software development and validation:</em> We plan to develop software tools that implement the proposed sparsely activated BNNs, which can be used for both regression and generative tasks. The software will be open sourced under the GNU-GPL license, and will be validated using real-world datasets from the state-of-the-art wireless communication and computer vision systems.</p>
+
     </div>
   </article>
-
 </div>
 
+          </div>
+        </div>
+        
       
     </div>
 
@@ -168,6 +187,9 @@ Last updated: June 13, 2024.
   <!-- Medium Zoom JS -->
   <script defer src="https://cdn.jsdelivr.net/npm/medium-zoom@1.0.8/dist/medium-zoom.min.js" integrity="sha256-7PhEpEWEW0XXQ0k6kQrPKwuoIomz8R8IYyuU1Qew4P8=" crossorigin="anonymous"></script>
   <script defer src="/assets/js/zoom.js"></script>
+  <!-- Sidebar Table of Contents -->
+  <script defer src="https://cdn.rawgit.com/afeld/bootstrap-toc/v1.0.1/dist/bootstrap-toc.min.js"></script>
+
 
   <!-- Bootstrap Table -->
   <script defer src="https://unpkg.com/bootstrap-table@1.21.3/dist/bootstrap-table.min.js"></script>
