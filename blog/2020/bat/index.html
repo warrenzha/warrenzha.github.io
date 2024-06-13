@@ -10,9 +10,9 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Beam Alignment and Tracking for Millimeter Wave Communications via Bandit Learning | Wenyuan  Zhao</title>
+    <title>Millimeter Wave Transmission and Beamforming | Wenyuan  Zhao</title>
     <meta name="author" content="Wenyuan  Zhao">
-    <meta name="description" content="We formulated the problem of beam alignment and tracking (BA/T) as a stochastic bandit problem.">
+    <meta name="description" content="We formulated the problem of mmWave beam alignment and tracking (BA/T) as a stochastic bandit problem. The analytical results show that the algorithms can sense the change of the environments and adjust beam training strategies intelligently.">
     <meta name="keywords" content="jekyll, jekyll-theme, academic-website, portfolio-website">
 
 
@@ -132,15 +132,13 @@
 <div class="post">
 
   <header class="post-header">
-    <h1 class="post-title">Beam Alignment and Tracking for Millimeter Wave Communications via Bandit Learning</h1>
+    <h1 class="post-title">Millimeter Wave Transmission and Beamforming</h1>
     <p class="post-meta">September 28, 2020</p>
     <p class="post-tags">
       <a href="/blog/2020"> <i class="fas fa-calendar fa-sm"></i> 2020 </a>
         ·  
         <a href="/blog/tag/communication">
           <i class="fas fa-hashtag fa-sm"></i> Communication</a>  
-          <a href="/blog/tag/optimization">
-          <i class="fas fa-hashtag fa-sm"></i> Optimization</a>  
           
 
     </p>
@@ -149,7 +147,28 @@
   <article class="post-content">
     
     <div id="markdown-content">
-      <p><em>Abstract:</em> Millimeter wave (mmwave) communications have attracted increasing attention thanks to the abundant spectrum resource. The short wave-length of mmwave signals facilitates exploiting large antenna arrays to achieve large array gains and combat large path-loss. However, the use of large antenna arrays along with narrow beams leads to a large overhead in beam training for obtaining channel state information, especially in dynamic environments. To reduce the overhead of beam training, in this paper we formulate the problem of beam alignment and tracking (BA/T) as a stochastic bandit problem. In particular, to sense the change of the environments, the actions are designed based on the offset of successive beam indexes (i.e., beam index difference), which measures the rate of change of the environments. Then, we propose two efficient BA/T algorithms based on the stochastic bandit learning. To reveal useful insights, the performance of effective achievable rate is further analyzed for the proposed BA/T algorithms. The analytical results show that the algorithms can sense the change of the environments and adjust beam training strategies intelligently. In addition, they do not require any priori knowledge of dynamic channel modeling, and thus are applicable to a variety of complicated scenarios. Simulation results demonstrate the effectiveness and superiority of the proposed algorithms.</p>
+      <h2 id="beam-alignment-and-tracking-for-millimeter-wave-communications-via-bandit-learning">Beam Alignment and Tracking for Millimeter Wave Communications via Bandit Learning</h2>
+
+<p><em>Abstract:</em> Millimeter wave (mmwave) communications have attracted increasing attention thanks to the abundant spectrum 
+resource. The short wave-length of mmwave signals facilitates exploiting large antenna arrays to achieve large array 
+gains and combat large path-loss. However, the use of large antenna arrays along with narrow beams leads to a large 
+overhead in beam training for obtaining channel state information, especially in dynamic environments. To reduce the 
+overhead of beam training, in this paper we formulate the problem of beam alignment and tracking (BA/T) as a stochastic 
+bandit problem. In particular, to sense the change of the environments, the actions are designed based on the offset of 
+successive beam indexes (i.e., beam index difference), which measures the rate of change of the environments. Then, we 
+propose two efficient BA/T algorithms based on the stochastic bandit learning. To reveal useful insights, the performance 
+of effective achievable rate is further analyzed for the proposed BA/T algorithms. The analytical results show that the 
+algorithms can sense the change of the environments and adjust beam training strategies intelligently. In addition, they 
+do not require any priori knowledge of dynamic channel modeling, and thus are applicable to a variety of complicated 
+scenarios. Simulation results demonstrate the effectiveness and superiority of the proposed algorithms.</p>
+
+<div align="center">
+<img src="assets/img/posts/mmwavecomm.jpg" width="400">
+<img src="assets/img/posts/beamtrain.jpg" width="400">
+</div>
+<div class="caption">
+    An illustration of a point-to-point mmwave communication system and beam training in each time-slot.
+</div>
 
     </div>
   </article>

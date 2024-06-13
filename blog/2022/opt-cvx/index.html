@@ -10,9 +10,9 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>ML-based Customer Review Classification | Wenyuan  Zhao</title>
+    <title>Matrix Optimization and Convex Programming | Wenyuan  Zhao</title>
     <meta name="author" content="Wenyuan  Zhao">
-    <meta name="description" content="This study implemented a machine learning-based algorithm to classify customer reviews.">
+    <meta name="description" content="We studied matrix optimization problems using convex programming and machine learning techniques. A complex-valued gradient neural network (CVGNN) is proposed to solve the Moore-Penrose inverse of complex matrices. We also implemented blind deconvolution using convex programming.">
     <meta name="keywords" content="jekyll, jekyll-theme, academic-website, portfolio-website">
 
 
@@ -41,7 +41,7 @@
     <link rel="shortcut icon" href="/assets/img/site-logo.png">
     
     <link rel="stylesheet" href="/assets/css/main.css">
-    <link rel="canonical" href="https://warrenzha.github.io/blog/2020/review-class/">
+    <link rel="canonical" href="https://warrenzha.github.io/blog/2022/opt-cvx/">
 
     <!-- Dark Mode -->
     
@@ -132,13 +132,15 @@
 <div class="post">
 
   <header class="post-header">
-    <h1 class="post-title">ML-based Customer Review Classification</h1>
-    <p class="post-meta">November 2, 2020</p>
+    <h1 class="post-title">Matrix Optimization and Convex Programming</h1>
+    <p class="post-meta">February 1, 2022</p>
     <p class="post-tags">
-      <a href="/blog/2020"> <i class="fas fa-calendar fa-sm"></i> 2020 </a>
+      <a href="/blog/2022"> <i class="fas fa-calendar fa-sm"></i> 2022 </a>
         ·  
-        <a href="/blog/tag/machine-learning">
-          <i class="fas fa-hashtag fa-sm"></i> Machine-Learning</a>  
+        <a href="/blog/tag/optimization">
+          <i class="fas fa-hashtag fa-sm"></i> Optimization</a>  
+          <a href="/blog/tag/communication">
+          <i class="fas fa-hashtag fa-sm"></i> Communication</a>  
           
 
     </p>
@@ -147,9 +149,43 @@
   <article class="post-content">
     
     <div id="markdown-content">
-      <p><em>Abstract:</em> Customer reviews on e-commerce platforms contain valuable information, while sifting through them manually tends to dismay people because of the huge amount of data. This study implemented a machine learning-based algorithm to classify customer reviews. Our classifier extracts Chinese word segmentation and text frequency for feature extraction and scoring, and implements the classification with methods of Naive Bayesian and Support Vector Machines. Experimental results on the Taobao product review sentiment datasets show that our model based on two machine learning algorithms, though results in different performances, can provide suggestions on the selection of the identification classifier using a trade-off strategy and helps obtain fast and accurate classification on reviews of different categories.</p>
+      <h2 id="blind-deconvolution-using-convex-programming">Blind Deconvolution Using Convex Programming</h2>
 
-<p><a href="https://iopscience.iop.org/article/10.1088/1742-6596/1678/1/012081/pdf" rel="external nofollow noopener" target="_blank">PDF</a></p>
+<p><em>Abstract:</em> We study the question of recovering two signals w and x from their convolution y = w ∗ x. Generally, the 
+solution to this blind deconvolution problem is non-unique and non-convex. But with assumptions on sparsity, subspace 
+structure and transformed variable, we can convert the non-convex nuclear norm into a convex problem by ”dual-dual” 
+relaxation. In this project, we also implement the convex algorithm proposed in Blind Deconvolution Using Convex 
+Programming, and compare its performance with non-blind and non-convex algorithms. Moreover, the evaluation shows that 
+the convex algorithm is robust against sparsity violation, but sensitive to low-rank condition. At last, we try to 
+extend the algorithm to 2D deconvolution by recovering a blurred image. But the result on 2D deconvolution still need 
+improvement.</p>
+
+<div align="center">
+<img src="assets/img/posts/blind1d.jpg" width="400">
+<img src="assets/img/posts/blind2d.jpg" width="400">
+</div>
+<div class="caption">
+    Empirical success rate for the blind deconvolution of 1D and 2D matrices.
+</div>
+
+<p><a href="https://github.com/warrenzha/blind-deconvolution" rel="external nofollow noopener" target="_blank">Link</a></p>
+
+<h2 id="ml-based-matrix-optimization-in-massive-mimo">ML-based Matrix Optimization in Massive MIMO</h2>
+
+<p><em>Abstract:</em> In the downlink of massive MIMO, the transmitter uses precoding technology to reduce interference and 
+improve spectrum efficiency. A complex-valued gradient neural network (CVGNN) is proposed to solve the 
+Moore-Penrose inverse of the complex matrix in massive MIMO precoding algorithms. Theoretical linear convergence and 
+numerical results are provided to corroborate the application of CVGNN in wireless communication senarios.</p>
+
+<div align="center">
+<img src="assets/img/posts/cvgnnexample.jpg" width="400">
+<img src="assets/img/posts/cvgnnconverge.jpg" width="400">
+</div>
+<div class="caption">
+    Linear convergence of CVGNN when solving complex matrix inverse.
+</div>
+
+<p><a href="https://wyzhao030.github.io/assets/pdf/ML_Matrix_Optimization_MIMO.pdf" rel="external nofollow noopener" target="_blank">PDF</a></p>
 
     </div>
   </article>

@@ -10,9 +10,9 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>GAN-based EEG Signal Generation | Wenyuan  Zhao</title>
+    <title>Machine Learning and Data Science | Wenyuan  Zhao</title>
     <meta name="author" content="Wenyuan  Zhao">
-    <meta name="description" content="We proposed the WGAN-GP method, a variant of GAN, to extend data set of EEG signals.">
+    <meta name="description" content="We studied the general area of machine learning and data science. A machine learning-based algorithm to is proposed to classify customer reviews. A variant of GAN, WGAN-GP, is designed to extend data set of EEG signals.">
     <meta name="keywords" content="jekyll, jekyll-theme, academic-website, portfolio-website">
 
 
@@ -41,7 +41,7 @@
     <link rel="shortcut icon" href="/assets/img/site-logo.png">
     
     <link rel="stylesheet" href="/assets/css/main.css">
-    <link rel="canonical" href="https://warrenzha.github.io/blog/2022/eeg-gen/">
+    <link rel="canonical" href="https://warrenzha.github.io/blog/2022/ml-data-sci/">
 
     <!-- Dark Mode -->
     
@@ -132,7 +132,7 @@
 <div class="post">
 
   <header class="post-header">
-    <h1 class="post-title">GAN-based EEG Signal Generation</h1>
+    <h1 class="post-title">Machine Learning and Data Science</h1>
     <p class="post-meta">April 20, 2022</p>
     <p class="post-tags">
       <a href="/blog/2022"> <i class="fas fa-calendar fa-sm"></i> 2022 </a>
@@ -147,11 +147,41 @@
   <article class="post-content">
     
     <div id="markdown-content">
-      <p><em>Abstract:</em> Processing and analysis of brain signals generally requires a large amount of data. But the acquisition of EEG signals is difficult while the sample size of the data set is small, and sometimes categories are unbalanced in the data set. Based on the challenge, we proposed the WGAN-GP method, a variant of GAN, to generate useful EEG signals. The experiments on single-channel and multi-channel model both show that the performance of WGAN-GP is stable, and the generated signals have close shape with the real signals, and have better spectrum performance than traditional methods. Our results and analysis show that WGAN-GP can generate accurate and diverse EEG signals, and thus, help extend the data set which is difficult to collect physically. We’ve made the code associated with this work available at https://github.com/warrenzha/GAN-EEG-generation.</p>
+      <h2 id="gan-based-eeg-signal-generation">GAN-based EEG Signal Generation</h2>
+
+<p><em>Abstract:</em> Processing and analysis of brain signals generally requires a large amount of data. But the acquisition of 
+EEG signals is difficult while the sample size of the data set is small, and sometimes categories are unbalanced in the 
+data set. Based on the challenge, we proposed the WGAN-GP method, a variant of GAN, to generate useful EEG signals. 
+The experiments on single-channel and multi-channel model both show that the performance of WGAN-GP is stable, and the 
+generated signals have close shape with the real signals, and have better spectrum performance than traditional methods. 
+Our results and analysis show that WGAN-GP can generate accurate and diverse EEG signals, and thus, help extend the data 
+set which is difficult to collect physically. We’ve made the code associated with this work available 
+at https://github.com/warrenzha/GAN-EEG-generation.</p>
+
+<div align="center">
+<img src="assets/img/posts/generatedeeg.jpg" width="400">
+<img src="assets/img/posts/wganconverge.jpg" width="400">
+</div>
+<div class="caption">
+    Generated EEG signals and convergence rate of WGAN-GP.
+</div>
 
 <p><a href="https://warrenzha.github.io/assets/pdf/GAN-EEG-Generation.pdf">PDF</a></p>
 
 <p><a href="https://github.com/warrenzha/GAN-EEG-generation" rel="external nofollow noopener" target="_blank">Link</a></p>
+
+<h2 id="classification-of-online-customer-reviews">Classification of Online Customer Reviews</h2>
+
+<p><em>Abstract:</em> Customer reviews on e-commerce platforms contain valuable information, while sifting through them manually 
+tends to dismay people because of the huge amount of data. This study implemented a machine learning-based algorithm to 
+classify customer reviews. Our classifier extracts Chinese word segmentation and text frequency for feature extraction 
+and scoring, and implements the classification with methods of Naive Bayesian and Support Vector Machines. Experimental 
+results on the Taobao product review sentiment datasets show that our model based on two machine learning algorithms, 
+though results in different performances, can provide suggestions on the selection of the identification classifier 
+using a trade-off strategy and helps obtain fast and accurate classification on reviews of different categories.</p>
+
+<p><a href="https://iopscience.iop.org/article/10.1088/1742-6596/1678/1/012081/pdf" rel="external nofollow noopener" target="_blank">PDF</a></p>
+
 
     </div>
   </article>
