@@ -23,8 +23,8 @@ set which is difficult to collect physically. We’ve made the code associated w
 at https://github.com/warrenzha/GAN-EEG-generation.
 
 <div align="center">
-<img src="assets/img/posts/generatedeeg.jpg" width="400" />
-<img src="assets/img/posts/wganconverge.jpg" width="400" />
+<img src="../assets/img/posts/generatedeeg.png" width="300" />
+<img src="../assets/img/posts/wganconverge.png" width="300" />
 </div>
 <div class="caption">
     Generated EEG signals and convergence rate of WGAN-GP.
