@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator><link href="https://warrenzha.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://warrenzha.github.io/" rel="alternate" type="text/html" hreflang="en" /><updated>2024-06-13T20:36:19+00:00</updated><id>https://warrenzha.github.io/feed.xml</id><title type="html">blank</title><subtitle>A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator><link href="https://warrenzha.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://warrenzha.github.io/" rel="alternate" type="text/html" hreflang="en" /><updated>2024-06-20T14:07:02+00:00</updated><id>https://warrenzha.github.io/feed.xml</id><title type="html">blank</title><subtitle>A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
 </subtitle><entry><title type="html">Sparsely Activated BNNs from Deep Gaussian Process</title><link href="https://warrenzha.github.io/blog/2024/dgp/" rel="alternate" type="text/html" title="Sparsely Activated BNNs from Deep Gaussian Process" /><published>2024-06-10T14:14:00+00:00</published><updated>2024-06-10T14:14:00+00:00</updated><id>https://warrenzha.github.io/blog/2024/dgp</id><content type="html" xml:base="https://warrenzha.github.io/blog/2024/dgp/"><![CDATA[<p><em>Theory and algorithm development:</em> Building on our initial success, we aim to develop a deeper understanding of the nature of the DTMGP models and construct a broader class of DTMGP models with more complex architectures. This will be mainly accomplished by exploring various equivalent expansions of TMGPs and architectures with skip connections or feedback, akin to ResNet or RNN in the deterministic setting. Furthermore, to address the challenge of prior design, we plan to work to understand how the priors (especially, the covariance kernel functions) of the GP units impact the prior of the overall DGP model.</p>
 
 <p><em>Applications to conditional generative tasks:</em> While the primary motivation for studying DGPs in the literature so far has been uncertainty quantification for learning supervised classification/regression, the stochastic nature of these models also makes them natural candidates as generative models. While the general properties of DGPs as generative models are largely unknown, we are encouraged by our preliminary results on applying the DTMGP model to the MNIST dataset_ and the structural similarity between DGPs and the immensely popular Gaussian diffusion models.</p>
@@ -18,7 +18,9 @@ algorithm to reduce the input size into the RL policy. We validate this framewor
 from a mmWave IAB testbed, combined with a large scale ray tracing simulation. Experiments on a set of challenging 5G 
 IAB network control problems demonstrate the effectiveness of our framework to enable practical RL integration into 5G IAB.</p>
 
-<p><img src="https://github.com/warrenzha/warrenzha.github.io/blob/master/assets/img/posts/mmwavemesh.png" alt="mmwavemesh.png" /></p>
+<center>
+<img src="https://github.com/warrenzha/warrenzha.github.io/blob/master/assets/img/posts/mmwavemesh.png" width="70%" />
+</center>
 <div class="caption">
     Self-supervised reinforcement learning model and MikroTik testbed for dynamic mmWave mesh network.
 </div>
@@ -34,7 +36,9 @@ Our results and analysis show that WGAN-GP can generate accurate and diverse EEG
 set which is difficult to collect physically. We’ve made the code associated with this work available 
 at https://github.com/warrenzha/GAN-EEG-generation.</p>
 
-<p><img src="https://github.com/warrenzha/warrenzha.github.io/blob/master/assets/img/posts/ganeeg.png" alt="ganeeg.png" /></p>
+<center>
+<img src="https://github.com/warrenzha/warrenzha.github.io/blob/master/assets/img/posts/ganeeg.png" width="70%" />
+</center>
 <div class="caption">
     Generated EEG signals and convergence rate of WGAN-GP.
 </div>
@@ -64,7 +68,9 @@ the convex algorithm is robust against sparsity violation, but sensitive to low-
 extend the algorithm to 2D deconvolution by recovering a blurred image. But the result on 2D deconvolution still need 
 improvement.</p>
 
-<p><img src="https://github.com/warrenzha/warrenzha.github.io/blob/master/assets/img/posts/blind.png" alt="blind.png" /></p>
+<center>
+<img src="https://github.com/warrenzha/warrenzha.github.io/blob/master/assets/img/posts/blind.png" width="70%" />
+</center>
 <div class="caption">
     Empirical success rate for the blind deconvolution of 1D and 2D matrices.
 </div>
@@ -98,7 +104,9 @@ algorithms can sense the change of the environments and adjust beam training str
 do not require any priori knowledge of dynamic channel modeling, and thus are applicable to a variety of complicated 
 scenarios. Simulation results demonstrate the effectiveness and superiority of the proposed algorithms.</p>
 
-<p><img src="https://github.com/warrenzha/warrenzha.github.io/blob/master/assets/img/posts/bat.png" alt="bat.png" /></p>
+<center>
+<img src="https://github.com/warrenzha/warrenzha.github.io/blob/master/assets/img/posts/bat.png" width="70%" />
+</center>
 <div class="caption">
     An illustration of a point-to-point mmwave communication system and beam training in each time-slot.
 </div>]]></content><author><name></name></author><category term="Communication" /><summary type="html"><![CDATA[We formulated the problem of mmWave beam alignment and tracking (BA/T) as a stochastic bandit problem. The analytical results show that the algorithms can sense the change of the environments and adjust beam training strategies intelligently.]]></summary></entry></feed>
