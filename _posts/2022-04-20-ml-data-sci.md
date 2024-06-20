@@ -22,11 +22,9 @@ Our results and analysis show that WGAN-GP can generate accurate and diverse EEG
 set which is difficult to collect physically. We’ve made the code associated with this work available 
 at https://github.com/warrenzha/GAN-EEG-generation.
 
-<center>
-<img src="https://github.com/warrenzha/warrenzha.github.io/blob/master/assets/img/posts/ganeeg.png" width="70%" />
-</center>
-<div class="caption">
-    Generated EEG signals and convergence rate of WGAN-GP.
+<div class="l-body" style="text-align:center;">
+  <img src="https://github.com/warrenzha/warrenzha.github.io/blob/master/assets/img/posts/ganeeg.png" width="60%" style="margin-bottom: 12px; background-color: white;">
+  <p>Generated EEG signals and convergence rate of WGAN-GP.</p>
 </div>
 
 [PDF](https://warrenzha.github.io/assets/pdf/GAN-EEG-Generation.pdf)
@@ -43,5 +41,5 @@ results on the Taobao product review sentiment datasets show that our model base
 though results in different performances, can provide suggestions on the selection of the identification classifier 
 using a trade-off strategy and helps obtain fast and accurate classification on reviews of different categories.
 
-[PDF](https://iopscience.iop.org/article/10.1088/1742-6596/1678/1/012081/pdf)
+[Paper](https://iopscience.iop.org/article/10.1088/1742-6596/1678/1/012081/pdf)
 
