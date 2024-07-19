@@ -23,13 +23,11 @@ set which is difficult to collect physically. We’ve made the code associated w
 at https://github.com/warrenzha/GAN-EEG-generation.
 
 <div class="l-body" style="text-align:center;">
-  <img src="https://github.com/warrenzha/warrenzha.github.io/blob/master/assets/img/posts/ganeeg.png" width="60%" style="margin-bottom: 12px; background-color: white;">
+  <img src="../assets/img/posts/ganeeg.png" width="60%" style="margin-bottom: 12px; background-color: white;">
   <p>Generated EEG signals and convergence rate of WGAN-GP.</p>
 </div>
 
-[PDF](https://warrenzha.github.io/assets/pdf/GAN-EEG-Generation.pdf)
-
-[Link](https://github.com/warrenzha/GAN-EEG-generation)      
+[PDF](https://warrenzha.github.io/assets/pdf/GAN-EEG-Generation.pdf), [Link](https://github.com/warrenzha/GAN-EEG-generation)      
 
 ## Classification of Online Customer Reviews
 
